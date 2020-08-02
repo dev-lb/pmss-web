@@ -1,0 +1,18 @@
+server:
+  port: 59092
+  servlet:
+    context-path: /pmss-web
+
+spring:
+  application:
+    name: pmss-web
+  freemarker:
+    tempalte-loader-path: classpath:/templates
+    cache: false
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    suffix: .ftl
